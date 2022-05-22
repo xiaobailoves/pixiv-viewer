@@ -16,7 +16,7 @@ const isSupportWebP = (() => {
 })();
 
 const imgProxy = url => {
-  let result = url.replace(/i.pximg.net/g, 'restless-disk-6fdf.whitediamond.workers.dev')
+  let result = url.replace(/i.pximg.net/g, 'pixivapi.yourworld.fun')
 
   if (!isSupportWebP) {
     result = result.replace(/_10_webp/g, '_70')
